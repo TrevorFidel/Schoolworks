@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    font-family: cursive;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    padding: 20px 0;
+    z-index: 998;
+    transition: all 0.3s ease;
+    font-family: Ubuntu, sans-serif;
+    background-color: deepskyblue;
+}
+nav .navbar{
+    width: 90%;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    margin: auto;
+}
+nav .navbar .logo a{
+    font-weight: 700;
+    font-size: 50px;
+    color: #4070f4;
+}
+nav .navbar .menu{
+    display: flex;
+    position: relative;
+}
+nav .navbar .menu li{
+    list-style: none;
+    margin: 0 8px;
+}
+.navbar .menu a{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0E2431;
+    padding: 6px 0;
+    transition: all 0.4s ease;
+}
+.navbar .menu a:hover{
+    color: #4070f4;
+}
+.home{
+    height: 100vh;
+    width: 100%;
+    /*background: url("");*/
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Ubuntu,sans-serif;
+    background-color:darkseagreen;
+}
+.home .home-content{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home .text-one{
+    font-size: 40px;
+    color: #0E2431;
+}
+.home .text-two{
+    color: #0E2431;
+    font-size: 80px;
+    font-weight: 600;
+}
+.home .text-three{
+    color: #4070f4;
+    font-size: 55px;
+    font-weight: 450;
+}
+.home .text-four{
+    color: #0E2431;
+    font-size: 40px;
+}
+.home .button{
+   margin: 14px 0;
+    font-weight: 400;
+    font-size: 25px;
+
+
+}
+.home .button button{
+
+}
+.home .button button:hover{
+    outline: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: ;
+}
+.services .boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.services .boxes .box{
+    margin: 20px 0;
+    width: calc( 100% -20px);
+    text-align: center;
+    border-radius: 12px;
+    padding: 30px 10px;
+    box-shadow: 0 5px rgba(0,0,0.12);
+    background-color: lightblue;
+}
+.services .boxes .box .icon{
+    height: 50px;
+    width: 50px;
+    background: #4070f4;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    color: #fff;
+    margin: 0 auto 10px auto;
+    transition: all 0.4s ease;
+}
